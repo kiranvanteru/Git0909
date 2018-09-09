@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46" started-at="2018-09-09T16:10:59Z" finished-at="2018-09-09T16:10:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46" started-at="2018-09-09T16:10:59Z" finished-at="2018-09-09T16:10:59Z">
+      <class name="package0909.Test0909">
+        <test-method status="PASS" signature="Method0909()[pri:0, instance:package0909.Test0909@5b275dab]" name="Method0909" duration-ms="17" started-at="2018-09-09T21:40:59Z" finished-at="2018-09-09T21:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method0909 -->
+      </class> <!-- package0909.Test0909 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
