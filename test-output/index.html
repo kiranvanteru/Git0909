@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="package0909.Test0909" hash-for-method="Method0909">Method0909</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="package0909.Test0909" hash-for-method="Method0909(chrome)">Method0909(chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -125,9 +125,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Method0909">
-                  </a> <!-- Method0909 -->
+                  <a name="Method0909(chrome)">
+                  </a> <!-- Method0909(chrome) -->
                   <span class="method-name">Method0909</span>
+                  <span class="parameters">(chrome)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,6 +143,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;br&quot; value=&quot;chrome&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;package0909.Test0909&quot;/&gt;
@@ -188,12 +190,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Method0909')
 data.setCell(0, 2, 'package0909.Test0909')
-data.setCell(0, 3, 17);
+data.setCell(0, 3, 5892);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 ms</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -221,9 +223,13 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">package0909.Test0909</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Method0909</span>
+                <span class="method-name">Method0909(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">CloseBr</span>
+                <span class="method-start">5893 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

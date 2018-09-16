@@ -2,15 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46" started-at="2018-09-09T16:10:59Z" finished-at="2018-09-09T16:10:59Z">
+  <suite name="Suite" duration-ms="8265" started-at="2018-09-16T14:00:51Z" finished-at="2018-09-16T14:00:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46" started-at="2018-09-09T16:10:59Z" finished-at="2018-09-09T16:10:59Z">
+    <test name="Test" duration-ms="8265" started-at="2018-09-16T14:00:51Z" finished-at="2018-09-16T14:00:59Z">
       <class name="package0909.Test0909">
-        <test-method status="PASS" signature="Method0909()[pri:0, instance:package0909.Test0909@5b275dab]" name="Method0909" duration-ms="17" started-at="2018-09-09T21:40:59Z" finished-at="2018-09-09T21:40:59Z">
+        <test-method status="PASS" signature="Method0909(java.lang.String)[pri:0, instance:package0909.Test0909@4eb7f003]" name="Method0909" duration-ms="5892" started-at="2018-09-16T14:00:51Z" finished-at="2018-09-16T14:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method0909 -->
+        <test-method status="PASS" signature="CloseBr()[pri:0, instance:package0909.Test0909@4eb7f003]" name="CloseBr" is-config="true" duration-ms="2354" started-at="2018-09-16T14:00:57Z" finished-at="2018-09-16T14:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBr -->
       </class> <!-- package0909.Test0909 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
