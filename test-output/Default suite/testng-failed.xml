@@ -5,7 +5,7 @@
     <classes>
       <class name="package0909.Test0909">
         <methods>
-          <include name="StartBrowser"/>
+          <include name="CloseBr"/>
           <include name="Method0909"/>
         </methods>
       </class> <!-- package0909.Test0909 -->
